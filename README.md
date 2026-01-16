@@ -28,3 +28,24 @@ Create `.vscode/settings.json` for easier code editing:
     "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 ```
+
+## Readme and License
+
+Update the rest of the readme and delete the template instructions. Update the license in [LICENSE](LICENSE) and [package.json](package.json).
+
+---
+
+# Plugin Name
+
+_Plugin description._
+
+## Changelog
+
+### 0.1.0
+
+Initial version...
+
+## License
+
+This project is licensed under the MIT License - see the
+[LICENSE](LICENSE) file for more details.
