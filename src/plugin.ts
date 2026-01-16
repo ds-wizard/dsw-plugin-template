@@ -1,7 +1,8 @@
-import { Plugin } from '@ds-wizard/plugin-sdk/types'
-import { UserSettingsDataCodec } from './data/user-settings-data'
-import { SettingsDataCodec } from './data/settings-data'
 import { PluginBuilder } from '@ds-wizard/plugin-sdk/core'
+import { Plugin } from '@ds-wizard/plugin-sdk/types'
+
+import { SettingsDataCodec } from './data/settings-data'
+import { UserSettingsDataCodec } from './data/user-settings-data'
 import { pluginMetadata } from './metadata'
 
 export default function (settingsInput: unknown, userSettingsInput: unknown): Plugin {
